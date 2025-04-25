@@ -1,0 +1,55 @@
+.hero-card-wrapper {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    z-index: 2;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .hero-card {
+    background-color: #11224d;
+    border-radius: 20px;
+    padding: 16px;
+    width: 240px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, filter 0.3s ease;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-card:hover {
+    transform: scale(1.03);
+    filter: brightness(1.05);
+  }
+  
+  .hero-img {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .hero-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  
+  .hero-stats {
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: left;
+  }
+  
+  .hero-stats div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px 0;
+  }
+  
